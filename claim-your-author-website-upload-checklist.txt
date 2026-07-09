@@ -1,9 +1,11 @@
 CLAIM YOUR AUTHOR WEBSITE — GITHUB UPLOAD CHECKLIST
 
-Upload every file from the ZIP directly into the root of the GitHub repository.
+Upload every file in this ZIP directly into the repository root.
+Do not upload the ZIP itself.
 
-Required files included:
+FILES INCLUDED:
 - index.html
+- CNAME
 - logo.webp
 - favicon.ico
 - favicon-16.png
@@ -11,14 +13,31 @@ Required files included:
 - favicon-48.png
 - favicon-64.png
 - apple-touch-icon.png
-- share-card-v2.jpg
+- share-card-v3.jpg
 - google10473d8cee5f5fe6.html
 - .nojekyll
 
-Important:
-- The audio section has been fully removed.
+IMPORTANT:
+- The audio section has been removed.
 - Do not upload author-ai-chat-voiceover.mp3.
-- The Google Search Console verification file must stay in the repo root.
-- Keep all image and favicon files in the repo root with the same names.
-- After uploading, wait for GitHub Pages to rebuild, then refresh the live site.
-- If the old audio box still shows, clear browser cache or open the site in a private/incognito window.
+- Client emails now go to: authors.kronatrix@gmail.com
+- The site is prepared for: https://claim-your-author-website.kronatrix.co.uk/
+- The social preview image is 1200 x 630 and uses an absolute URL:
+  https://claim-your-author-website.kronatrix.co.uk/share-card-v3.jpg
+
+GODADDY DNS FOR THIS RECOMMENDED SUBDOMAIN:
+Type: CNAME
+Name / Host: claim-your-author-website
+Value / Points to: kronatrixai.github.io
+TTL: Default / 1 hour
+
+GITHUB PAGES:
+Repository: claim-your-author-website
+Settings > Pages > Custom domain:
+claim-your-author-website.kronatrix.co.uk
+Then save and enable Enforce HTTPS when GitHub allows it.
+
+GOOGLE SEARCH CONSOLE:
+The verification file google10473d8cee5f5fe6.html is included in the root.
+After the site is live, verify this URL:
+https://claim-your-author-website.kronatrix.co.uk/google10473d8cee5f5fe6.html
