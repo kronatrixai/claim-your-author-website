@@ -1,0 +1,24 @@
+CLAIM YOUR AUTHOR WEBSITE — GITHUB UPLOAD CHECKLIST
+
+Upload every file from the ZIP directly into the root of the GitHub repository.
+
+Required files included:
+- index.html
+- logo.webp
+- favicon.ico
+- favicon-16.png
+- favicon-32.png
+- favicon-48.png
+- favicon-64.png
+- apple-touch-icon.png
+- share-card-v2.jpg
+- google10473d8cee5f5fe6.html
+- .nojekyll
+
+Important:
+- The audio section has been fully removed.
+- Do not upload author-ai-chat-voiceover.mp3.
+- The Google Search Console verification file must stay in the repo root.
+- Keep all image and favicon files in the repo root with the same names.
+- After uploading, wait for GitHub Pages to rebuild, then refresh the live site.
+- If the old audio box still shows, clear browser cache or open the site in a private/incognito window.
